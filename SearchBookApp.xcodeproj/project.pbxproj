@@ -13,9 +13,9 @@
 		F0510CD727DD242E00FC5321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0510CD527DD242E00FC5321 /* Main.storyboard */; };
 		F0510CD927DD242F00FC5321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0510CD827DD242F00FC5321 /* Assets.xcassets */; };
 		F0510CDC27DD242F00FC5321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0510CDA27DD242F00FC5321 /* LaunchScreen.storyboard */; };
-		F0510CE727DD242F00FC5321 /* SearchBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CE627DD242F00FC5321 /* SearchBookAppTests.swift */; };
-		F0510CF127DD243000FC5321 /* SearchBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CF027DD243000FC5321 /* SearchBookAppUITests.swift */; };
-		F0510CF327DD243000FC5321 /* SearchBookAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CF227DD243000FC5321 /* SearchBookAppUITestsLaunchTests.swift */; };
+		F0510D0327DD289D00FC5321 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0227DD289D00FC5321 /* NetworkService.swift */; };
+		F0510D0527DD296700FC5321 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0427DD296700FC5321 /* ApiClient.swift */; };
+		F0510D0727DD2F7800FC5321 /* SearchBooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		F0510CDB27DD242F00FC5321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0510CDD27DD242F00FC5321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0510CE227DD242F00FC5321 /* SearchBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0510CE627DD242F00FC5321 /* SearchBookAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookAppTests.swift; sourceTree = "<group>"; };
 		F0510CEC27DD243000FC5321 /* SearchBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0510CF027DD243000FC5321 /* SearchBookAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookAppUITests.swift; sourceTree = "<group>"; };
-		F0510CF227DD243000FC5321 /* SearchBookAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0510D0227DD289D00FC5321 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F0510D0427DD296700FC5321 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBooksModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				F0510CCE27DD242E00FC5321 /* SearchBookApp */,
-				F0510CE527DD242F00FC5321 /* SearchBookAppTests */,
-				F0510CEF27DD243000FC5321 /* SearchBookAppUITests */,
 				F0510CCD27DD242E00FC5321 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +97,9 @@
 		F0510CCE27DD242E00FC5321 /* SearchBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				F0510CFF27DD276C00FC5321 /* Service */,
+				F0510D0027DD278E00FC5321 /* StartScreen */,
+				F0510D0127DD27A300FC5321 /* DetailScreen */,
 				F0510CCF27DD242E00FC5321 /* AppDelegate.swift */,
 				F0510CD127DD242E00FC5321 /* SceneDelegate.swift */,
 				F0510CD327DD242E00FC5321 /* ViewController.swift */,
@@ -110,21 +111,28 @@
 			path = SearchBookApp;
 			sourceTree = "<group>";
 		};
-		F0510CE527DD242F00FC5321 /* SearchBookAppTests */ = {
+		F0510CFF27DD276C00FC5321 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F0510CE627DD242F00FC5321 /* SearchBookAppTests.swift */,
+				F0510D0227DD289D00FC5321 /* NetworkService.swift */,
+				F0510D0427DD296700FC5321 /* ApiClient.swift */,
 			);
-			path = SearchBookAppTests;
+			path = Service;
 			sourceTree = "<group>";
 		};
-		F0510CEF27DD243000FC5321 /* SearchBookAppUITests */ = {
+		F0510D0027DD278E00FC5321 /* StartScreen */ = {
 			isa = PBXGroup;
 			children = (
-				F0510CF027DD243000FC5321 /* SearchBookAppUITests.swift */,
-				F0510CF227DD243000FC5321 /* SearchBookAppUITestsLaunchTests.swift */,
+				F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */,
 			);
-			path = SearchBookAppUITests;
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		F0510D0127DD27A300FC5321 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +268,10 @@
 			files = (
 				F0510CD427DD242E00FC5321 /* ViewController.swift in Sources */,
 				F0510CD027DD242E00FC5321 /* AppDelegate.swift in Sources */,
+				F0510D0327DD289D00FC5321 /* NetworkService.swift in Sources */,
 				F0510CD227DD242E00FC5321 /* SceneDelegate.swift in Sources */,
+				F0510D0727DD2F7800FC5321 /* SearchBooksModel.swift in Sources */,
+				F0510D0527DD296700FC5321 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0510CE727DD242F00FC5321 /* SearchBookAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0510CF127DD243000FC5321 /* SearchBookAppUITests.swift in Sources */,
-				F0510CF327DD243000FC5321 /* SearchBookAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +482,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
