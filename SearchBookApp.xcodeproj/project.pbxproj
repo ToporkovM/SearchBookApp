@@ -9,64 +9,45 @@
 /* Begin PBXBuildFile section */
 		F0510CD027DD242E00FC5321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CCF27DD242E00FC5321 /* AppDelegate.swift */; };
 		F0510CD227DD242E00FC5321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CD127DD242E00FC5321 /* SceneDelegate.swift */; };
-		F0510CD427DD242E00FC5321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CD327DD242E00FC5321 /* ViewController.swift */; };
+		F0510CD427DD242E00FC5321 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510CD327DD242E00FC5321 /* StartViewController.swift */; };
 		F0510CD727DD242E00FC5321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0510CD527DD242E00FC5321 /* Main.storyboard */; };
 		F0510CD927DD242F00FC5321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0510CD827DD242F00FC5321 /* Assets.xcassets */; };
 		F0510CDC27DD242F00FC5321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0510CDA27DD242F00FC5321 /* LaunchScreen.storyboard */; };
 		F0510D0327DD289D00FC5321 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0227DD289D00FC5321 /* NetworkService.swift */; };
 		F0510D0527DD296700FC5321 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0427DD296700FC5321 /* ApiClient.swift */; };
 		F0510D0727DD2F7800FC5321 /* SearchBooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */; };
+		F0510D0B27DD47CB00FC5321 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0927DD47CB00FC5321 /* InfoTableViewCell.swift */; };
+		F0510D0C27DD47CB00FC5321 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0510D0A27DD47CB00FC5321 /* InfoTableViewCell.xib */; };
+		F0510D0F27DD4AD100FC5321 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D0E27DD4AD000FC5321 /* UITableViewCell+Extension.swift */; };
+		F0510D1127DD4C5000FC5321 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D1027DD4C5000FC5321 /* UITableView+Extension.swift */; };
+		F0510D1327DD4D2500FC5321 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D1227DD4D2500FC5321 /* Collection+Extension.swift */; };
+		F0510D2527DD712D00FC5321 /* DetailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0510D2327DD712D00FC5321 /* DetailCardViewController.swift */; };
+		F0510D2627DD712D00FC5321 /* DetailCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0510D2427DD712D00FC5321 /* DetailCardViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F0510CE327DD242F00FC5321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0510CC427DD242E00FC5321 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0510CCB27DD242E00FC5321;
-			remoteInfo = SearchBookApp;
-		};
-		F0510CED27DD243000FC5321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0510CC427DD242E00FC5321 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0510CCB27DD242E00FC5321;
-			remoteInfo = SearchBookApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F0510CCC27DD242E00FC5321 /* SearchBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0510CCF27DD242E00FC5321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0510CD127DD242E00FC5321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F0510CD327DD242E00FC5321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0510CD327DD242E00FC5321 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F0510CD627DD242E00FC5321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0510CD827DD242F00FC5321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0510CDB27DD242F00FC5321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0510CDD27DD242F00FC5321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0510CE227DD242F00FC5321 /* SearchBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0510CEC27DD243000FC5321 /* SearchBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0510D0227DD289D00FC5321 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F0510D0427DD296700FC5321 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBooksModel.swift; sourceTree = "<group>"; };
+		F0510D0927DD47CB00FC5321 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		F0510D0A27DD47CB00FC5321 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		F0510D0E27DD4AD000FC5321 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		F0510D1027DD4C5000FC5321 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		F0510D1227DD4D2500FC5321 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		F0510D2327DD712D00FC5321 /* DetailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardViewController.swift; sourceTree = "<group>"; };
+		F0510D2427DD712D00FC5321 /* DetailCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F0510CC927DD242E00FC5321 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CDF27DD242F00FC5321 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CE927DD243000FC5321 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				F0510CCC27DD242E00FC5321 /* SearchBookApp.app */,
-				F0510CE227DD242F00FC5321 /* SearchBookAppTests.xctest */,
-				F0510CEC27DD243000FC5321 /* SearchBookAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +76,12 @@
 		F0510CCE27DD242E00FC5321 /* SearchBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				F0510D0D27DD4AB700FC5321 /* Extension */,
 				F0510CFF27DD276C00FC5321 /* Service */,
 				F0510D0027DD278E00FC5321 /* StartScreen */,
 				F0510D0127DD27A300FC5321 /* DetailScreen */,
 				F0510CCF27DD242E00FC5321 /* AppDelegate.swift */,
 				F0510CD127DD242E00FC5321 /* SceneDelegate.swift */,
-				F0510CD327DD242E00FC5321 /* ViewController.swift */,
 				F0510CD527DD242E00FC5321 /* Main.storyboard */,
 				F0510CD827DD242F00FC5321 /* Assets.xcassets */,
 				F0510CDA27DD242F00FC5321 /* LaunchScreen.storyboard */,
@@ -123,7 +102,9 @@
 		F0510D0027DD278E00FC5321 /* StartScreen */ = {
 			isa = PBXGroup;
 			children = (
-				F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */,
+				F0510D1927DD60DE00FC5321 /* Model */,
+				F0510D1A27DD60E300FC5321 /* Controller */,
+				F0510D1B27DD611200FC5321 /* View */,
 			);
 			path = StartScreen;
 			sourceTree = "<group>";
@@ -131,8 +112,61 @@
 		F0510D0127DD27A300FC5321 /* DetailScreen */ = {
 			isa = PBXGroup;
 			children = (
+				F0510D1D27DD616100FC5321 /* Controller */,
 			);
 			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		F0510D0827DD478A00FC5321 /* InfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0510D0927DD47CB00FC5321 /* InfoTableViewCell.swift */,
+				F0510D0A27DD47CB00FC5321 /* InfoTableViewCell.xib */,
+			);
+			path = InfoCell;
+			sourceTree = "<group>";
+		};
+		F0510D0D27DD4AB700FC5321 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0510D0E27DD4AD000FC5321 /* UITableViewCell+Extension.swift */,
+				F0510D1027DD4C5000FC5321 /* UITableView+Extension.swift */,
+				F0510D1227DD4D2500FC5321 /* Collection+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F0510D1927DD60DE00FC5321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0510D0627DD2F7800FC5321 /* SearchBooksModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0510D1A27DD60E300FC5321 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0510CD327DD242E00FC5321 /* StartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0510D1B27DD611200FC5321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0510D0827DD478A00FC5321 /* InfoCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0510D1D27DD616100FC5321 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0510D2327DD712D00FC5321 /* DetailCardViewController.swift */,
+				F0510D2427DD712D00FC5321 /* DetailCardViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,42 +189,6 @@
 			productReference = F0510CCC27DD242E00FC5321 /* SearchBookApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0510CE127DD242F00FC5321 /* SearchBookAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0510CF927DD243000FC5321 /* Build configuration list for PBXNativeTarget "SearchBookAppTests" */;
-			buildPhases = (
-				F0510CDE27DD242F00FC5321 /* Sources */,
-				F0510CDF27DD242F00FC5321 /* Frameworks */,
-				F0510CE027DD242F00FC5321 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0510CE427DD242F00FC5321 /* PBXTargetDependency */,
-			);
-			name = SearchBookAppTests;
-			productName = SearchBookAppTests;
-			productReference = F0510CE227DD242F00FC5321 /* SearchBookAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F0510CEB27DD243000FC5321 /* SearchBookAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0510CFC27DD243000FC5321 /* Build configuration list for PBXNativeTarget "SearchBookAppUITests" */;
-			buildPhases = (
-				F0510CE827DD243000FC5321 /* Sources */,
-				F0510CE927DD243000FC5321 /* Frameworks */,
-				F0510CEA27DD243000FC5321 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0510CEE27DD243000FC5321 /* PBXTargetDependency */,
-			);
-			name = SearchBookAppUITests;
-			productName = SearchBookAppUITests;
-			productReference = F0510CEC27DD243000FC5321 /* SearchBookAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,14 +201,6 @@
 				TargetAttributes = {
 					F0510CCB27DD242E00FC5321 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					F0510CE127DD242F00FC5321 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = F0510CCB27DD242E00FC5321;
-					};
-					F0510CEB27DD243000FC5321 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = F0510CCB27DD242E00FC5321;
 					};
 				};
 			};
@@ -228,8 +218,6 @@
 			projectRoot = "";
 			targets = (
 				F0510CCB27DD242E00FC5321 /* SearchBookApp */,
-				F0510CE127DD242F00FC5321 /* SearchBookAppTests */,
-				F0510CEB27DD243000FC5321 /* SearchBookAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,22 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0510CDC27DD242F00FC5321 /* LaunchScreen.storyboard in Resources */,
+				F0510D0C27DD47CB00FC5321 /* InfoTableViewCell.xib in Resources */,
 				F0510CD927DD242F00FC5321 /* Assets.xcassets in Resources */,
 				F0510CD727DD242E00FC5321 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CE027DD242F00FC5321 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CEA27DD243000FC5321 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F0510D2627DD712D00FC5321 /* DetailCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,43 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0510CD427DD242E00FC5321 /* ViewController.swift in Sources */,
+				F0510CD427DD242E00FC5321 /* StartViewController.swift in Sources */,
 				F0510CD027DD242E00FC5321 /* AppDelegate.swift in Sources */,
+				F0510D1127DD4C5000FC5321 /* UITableView+Extension.swift in Sources */,
 				F0510D0327DD289D00FC5321 /* NetworkService.swift in Sources */,
+				F0510D2527DD712D00FC5321 /* DetailCardViewController.swift in Sources */,
 				F0510CD227DD242E00FC5321 /* SceneDelegate.swift in Sources */,
+				F0510D0B27DD47CB00FC5321 /* InfoTableViewCell.swift in Sources */,
 				F0510D0727DD2F7800FC5321 /* SearchBooksModel.swift in Sources */,
 				F0510D0527DD296700FC5321 /* ApiClient.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CDE27DD242F00FC5321 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0510CE827DD243000FC5321 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F0510D0F27DD4AD100FC5321 /* UITableViewCell+Extension.swift in Sources */,
+				F0510D1327DD4D2500FC5321 /* Collection+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0510CE427DD242F00FC5321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0510CCB27DD242E00FC5321 /* SearchBookApp */;
-			targetProxy = F0510CE327DD242F00FC5321 /* PBXContainerItemProxy */;
-		};
-		F0510CEE27DD243000FC5321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0510CCB27DD242E00FC5321 /* SearchBookApp */;
-			targetProxy = F0510CED27DD243000FC5321 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0510CD527DD242E00FC5321 /* Main.storyboard */ = {
@@ -447,7 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
+				DEVELOPMENT_TEAM = JVAJVCXNP9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SearchBookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -461,7 +415,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookApp.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
+				DEVELOPMENT_TEAM = JVAJVCXNP9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SearchBookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -490,87 +444,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookApp.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F0510CFA27DD243000FC5321 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchBookApp.app/SearchBookApp";
-			};
-			name = Debug;
-		};
-		F0510CFB27DD243000FC5321 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchBookApp.app/SearchBookApp";
-			};
-			name = Release;
-		};
-		F0510CFD27DD243000FC5321 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SearchBookApp;
-			};
-			name = Debug;
-		};
-		F0510CFE27DD243000FC5321 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KKX4NMFRVY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ToporkovMaksim.SearchBookAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SearchBookApp;
 			};
 			name = Release;
 		};
@@ -591,24 +469,6 @@
 			buildConfigurations = (
 				F0510CF727DD243000FC5321 /* Debug */,
 				F0510CF827DD243000FC5321 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0510CF927DD243000FC5321 /* Build configuration list for PBXNativeTarget "SearchBookAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0510CFA27DD243000FC5321 /* Debug */,
-				F0510CFB27DD243000FC5321 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0510CFC27DD243000FC5321 /* Build configuration list for PBXNativeTarget "SearchBookAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0510CFD27DD243000FC5321 /* Debug */,
-				F0510CFE27DD243000FC5321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,6 +27,10 @@ struct Book: Codable {
 struct VolumeInfoModel: Codable {
     var title: String?
     var authors: [String]?
-    var publisher: String?
-    
+    var averageRating: Int?
+    var imageLinks: ImageLinkModel?
+}
+
+struct ImageLinkModel: Codable {
+    var thumbnail: String?
 }
